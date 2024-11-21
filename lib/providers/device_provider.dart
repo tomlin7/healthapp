@@ -6,22 +6,22 @@ class DeviceProvider with ChangeNotifier {
   final List<Device> _devices = [
     Device(
       id: const Uuid().v4(),
-      name: 'Health Monitor Pro',
+      name: 'Mi Band 5',
       type: 'Bluetooth',
     ),
     Device(
       id: const Uuid().v4(),
-      name: 'Smart Health Band',
+      name: 'Samsung Band',
       type: 'Bluetooth',
     ),
     Device(
       id: const Uuid().v4(),
-      name: 'WiFi Health Hub',
+      name: 'Band XYZ',
       type: 'Wi-Fi',
     ),
     Device(
       id: const Uuid().v4(),
-      name: 'Connected Scale',
+      name: 'Yet Another Band',
       type: 'Wi-Fi',
     ),
   ];
